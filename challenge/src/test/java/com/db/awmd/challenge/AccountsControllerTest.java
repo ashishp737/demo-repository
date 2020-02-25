@@ -50,7 +50,7 @@ public class AccountsControllerTest {
 
 		Account account = accountsService.getAccount("Id-123");
 		assertThat(account.getAccountId()).isEqualTo("Id-123");
-		assertThat(account.getBalance()).isEqualByComparingTo("1000");
+		assertThat(account.getBalance()).isEqualByComparingTo("1000");;
 	}
 
 	@Test
