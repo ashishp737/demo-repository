@@ -27,7 +27,7 @@ import org.springframework.web.context.WebApplicationContext;
 @WebAppConfiguration
 public class AccountsControllerTest {
 
-	private MockMvc mockMvc;
+	private MockMvc mockMvc;;;
 
 	@Autowired
 	private AccountsService accountsService;
